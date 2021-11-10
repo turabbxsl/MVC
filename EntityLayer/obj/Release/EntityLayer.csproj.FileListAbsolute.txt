@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Release\EntityLayer.dll.config
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Release\EntityLayer.dll
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Release\EntityLayer.pdb
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Release\EntityFramework.dll
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Release\EntityFramework.xml
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\obj\Release\EntityLayer.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\obj\Release\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\obj\Release\EntityLayer.csproj.CopyComplete
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\obj\Release\EntityLayer.dll
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\obj\Release\EntityLayer.pdb

@@ -1,0 +1,38 @@
+﻿@using EntityLayer.Concrete
+@model List<Category>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h1>Istatistik Sayfasi</h1>
+
+<br />
+<div style="width:200px;height:160px;background-color:red;float:left;border-radius:15px;text-align:center;">
+    <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:17px;color:white;margin-top:5px;">Toplam Kategori Sayisi</p>
+    <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:30px;color:white;margin-top:40px;">@ViewBag.birinci</p>
+</div>
+
+<div style="width:200px;height:160px;background-color:lightblue;float:left;margin-left:20px;border-radius:15px;text-align:center;">
+    <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:17px;color:white;margin-top:5px;">Yazılım kategorisine ait başlık sayısı</p>
+    <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:30px;color:white;margin-top:5px;">@ViewBag.ikinci</p>
+</div>
+
+<div style="width:200px;height:160px;background-color:greenyellow;float:left;margin-left:20px;border-radius:15px;text-align:center;">
+    <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:17px;color:white;margin-top:5px;">Yazar adında 'A' harfi geçen yazar sayısı</p>
+    <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:30px;color:white;margin-top:5px;">@ViewBag.ucuncu</p>
+</div>
+
+<div style="width:200px;height:160px;background-color:cyan;float:left;margin-left:20px;border-radius:15px;text-align:center;">
+    <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:17px;color:white;margin-top:5px;">En fazla başlığa sahip kategori adı</p>
+    <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:25px;color:white;margin-top:5px;">@ViewBag.dorduncu</p>
+</div>
+
+<div style="width:250px;height:160px;background-color:orangered;float:left;margin-left:20px;border-radius:15px;text-align:center;">
+    <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:17px;color:white;margin-top:5px;">Kategori tablosunda durumu true olan kategoriler ile false olan kategoriler arasındaki sayısal fark</p>
+    <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:30px;color:white;margin-top:5px;">@ViewBag.besinci</p>
+</div>
+<br />
+

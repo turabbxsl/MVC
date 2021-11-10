@@ -1,0 +1,40 @@
+﻿@model EntityLayer.Concrete.Admin
+@{
+    ViewBag.Title = "EditAdmin";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Admin Guncelleme Sayfasi</h2>
+
+@using (Html.BeginForm("EditAdmin", "Authoriztion", FormMethod.Post))
+{
+    <div class="form form-group">
+        @Html.HiddenFor(x => x.AdminID, new { @class = "form-control" })
+        <br />
+        @Html.Label("Admin Kullanici Adi")
+        @Html.TextBoxFor(x => x.AdminUserName, new { @class = "form-control" })
+        <br />
+        @Html.Label("Sifre")
+        @Html.TextBoxFor(x => x.AdminPassword, new { @class = "form-control" })
+        <br />
+        <fieldset>
+            Movie Type <select id="MovieType" name="AdminRole" class="form-control">
+
+                <option value=""></option>
+
+                <option value="A">A</option>
+
+                <option value="B">B</option>
+
+                <option selected="selected" value="C">C</option>
+
+                <option value="D">D</option>
+
+            </select>
+
+        </fieldset>
+        <button class="btn btn-success">Guncelle</button>
+    </div>
+}
+

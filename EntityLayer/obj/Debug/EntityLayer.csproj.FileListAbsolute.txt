@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\HP\source\repos\MVC ProjeKampi\EntityLayer\obj\Debug\EntityLayer.pdb
